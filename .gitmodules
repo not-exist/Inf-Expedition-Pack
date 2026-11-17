@@ -1,0 +1,3 @@
+[submodule "inf-core"]
+	path = inf-core
+	url = https://github.com/not-exist/Inf.git
