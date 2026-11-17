@@ -1,0 +1,9 @@
+{
+  "id": "inf_expedition:shop/stall",
+  "type": "shop",
+  "weight": 10,
+  "structure": "inf_expedition:rooms/shop/stall",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.shop_stall"
+}

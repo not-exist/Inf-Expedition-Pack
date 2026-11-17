@@ -1,0 +1,11 @@
+{
+  "id": "inf_expedition:elite/mutant",
+  "type": "elite",
+  "weight": 8,
+  "structure": "inf_expedition:rooms/elite/arena",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.elite_mutant",
+  "encounter": "inf_expedition:elite/mutant",
+  "reward_loot": "inf_expedition:chests/elite"
+}

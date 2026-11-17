@@ -1,0 +1,9 @@
+{
+  "id": "inf_expedition:rest/camp",
+  "type": "rest",
+  "weight": 10,
+  "structure": "inf_expedition:rooms/rest/camp",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.rest_camp"
+}

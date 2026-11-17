@@ -1,0 +1,38 @@
+{
+  "title": "encounter.inf_expedition.battle_mythic_grove",
+  "boss": false,
+  "waves": [
+    {
+      "mobs": [
+        {
+          "id": "mobs_of_mythology:kobold",
+          "count": 3
+        },
+        {
+          "id": "mobs_of_mythology:sporeling",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "mobs": [
+        {
+          "id": "mobs_of_mythology:kobold_warrior",
+          "count": 2
+        },
+        {
+          "id": "mobs_of_mythology:basilisk",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "scale": {
+    "health_per_act": 0.35,
+    "damage_per_act": 0.2,
+    "count_per_act": 0.2,
+    "health_per_extra_player": 0.5,
+    "damage_per_extra_player": 0.25
+  },
+  "reward_loot": "inf_expedition:chests/battle_common"
+}

@@ -1,0 +1,11 @@
+{
+  "id": "inf_expedition:battle/cavern",
+  "type": "battle",
+  "weight": 10,
+  "structure": "inf_expedition:rooms/battle/cavern",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.battle_cavern",
+  "encounter": "inf_expedition:battle/cavern",
+  "reward_loot": "inf_expedition:chests/battle_common"
+}

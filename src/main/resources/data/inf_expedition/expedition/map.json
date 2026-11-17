@@ -1,0 +1,19 @@
+{
+  "acts": 1,
+  "floors": 8,
+  "columns": 3,
+  "paths": 2,
+  "boss_floor": 8,
+  "elite_min_floor": 3,
+  "shop_min_floor": 2,
+  "forge_min_floor": 2,
+  "guarantee_rest_before_boss": true,
+  "weights": {
+    "battle": 40,
+    "event": 20,
+    "forge": 14,
+    "rest": 12,
+    "shop": 8,
+    "elite": 6
+  }
+}

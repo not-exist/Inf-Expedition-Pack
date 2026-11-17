@@ -1,0 +1,11 @@
+{
+  "id": "inf_expedition:battle/mythic_grove",
+  "type": "battle",
+  "weight": 8,
+  "structure": "inf_expedition:rooms/battle/cavern",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.battle_mythic_grove",
+  "encounter": "inf_expedition:battle/mythic_grove",
+  "reward_loot": "inf_expedition:chests/battle_common"
+}

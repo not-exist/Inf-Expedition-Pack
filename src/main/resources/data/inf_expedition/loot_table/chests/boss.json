@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "inf:hammer"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 16,
+                "max": 24
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "inf:sword_blank",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "inf:pickaxe_blank",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "inf:axe_blank",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "inf:scythe_blank",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "inf:dagger_blank",
+          "weight": 1
+        }
+      ]
+    }
+  ],
+  "random_sequence": "inf_expedition:chests/boss"
+}

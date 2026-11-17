@@ -1,0 +1,11 @@
+{
+  "id": "inf_expedition:boss/gauntlet",
+  "type": "boss",
+  "weight": 8,
+  "structure": "inf_expedition:rooms/boss/wroughtnaut",
+  "min_act": 2,
+  "max_act": 1,
+  "title": "room.inf_expedition.boss_gauntlet",
+  "encounter": "inf_expedition:boss/gauntlet",
+  "reward_loot": "inf_expedition:chests/boss"
+}

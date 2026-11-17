@@ -1,0 +1,26 @@
+{
+  "title": "encounter.inf_expedition.elite_arena",
+  "boss": false,
+  "waves": [
+    {
+      "mobs": [
+        {
+          "id": "legendary_monsters:ambusher",
+          "count": 1
+        },
+        {
+          "id": "minecraft:zombie",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "scale": {
+    "health_per_act": 0.35,
+    "damage_per_act": 0.2,
+    "count_per_act": 0.2,
+    "health_per_extra_player": 0.5,
+    "damage_per_extra_player": 0.25
+  },
+  "reward_loot": "inf_expedition:chests/elite"
+}

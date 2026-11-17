@@ -1,0 +1,10 @@
+{
+  "id": "inf_expedition:forge/smithy",
+  "type": "forge",
+  "weight": 10,
+  "structure": "inf_expedition:rooms/forge/smithy",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.forge_smithy",
+  "reward_loot": "inf_expedition:chests/forge_cache"
+}

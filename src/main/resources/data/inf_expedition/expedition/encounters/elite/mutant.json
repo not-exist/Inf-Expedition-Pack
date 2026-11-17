@@ -1,0 +1,34 @@
+{
+  "title": "encounter.inf_expedition.elite_mutant",
+  "boss": false,
+  "waves": [
+    {
+      "mobs": [
+        {
+          "id": "crimsonsteves_mutant_mobs:mutant_skeleton",
+          "count": 1
+        },
+        {
+          "id": "crimsonsteves_mutant_mobs:hopkeleton",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "mobs": [
+        {
+          "id": "crimsonsteves_mutant_mobs:withered_boxer",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "scale": {
+    "health_per_act": 0.35,
+    "damage_per_act": 0.2,
+    "count_per_act": 0.2,
+    "health_per_extra_player": 0.5,
+    "damage_per_extra_player": 0.25
+  },
+  "reward_loot": "inf_expedition:chests/elite"
+}

@@ -1,0 +1,63 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "inf:sword_blank",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "inf:pickaxe_blank",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "inf:axe_blank",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "inf:scythe_blank",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "inf:dagger_blank",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "inf:hammer"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coal",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "random_sequence": "inf_expedition:chests/forge_cache"
+}

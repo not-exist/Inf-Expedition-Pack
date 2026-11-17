@@ -1,0 +1,38 @@
+{
+  "title": "encounter.inf_expedition.battle_cavern",
+  "boss": false,
+  "waves": [
+    {
+      "mobs": [
+        {
+          "id": "minecraft:spider",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "mobs": [
+        {
+          "id": "minecraft:cave_spider",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "mobs": [
+        {
+          "id": "minecraft:silverfish",
+          "count": 5
+        }
+      ]
+    }
+  ],
+  "scale": {
+    "health_per_act": 0.35,
+    "damage_per_act": 0.2,
+    "count_per_act": 0.2,
+    "health_per_extra_player": 0.5,
+    "damage_per_extra_player": 0.25
+  },
+  "reward_loot": "inf_expedition:chests/battle_common"
+}

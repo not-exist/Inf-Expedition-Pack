@@ -1,0 +1,11 @@
+{
+  "id": "inf_expedition:battle/forge_hall",
+  "type": "battle",
+  "weight": 10,
+  "structure": "inf_expedition:rooms/battle/forge_hall",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.battle_forge_hall",
+  "encounter": "inf_expedition:battle/forge_hall",
+  "reward_loot": "inf_expedition:chests/battle_common"
+}

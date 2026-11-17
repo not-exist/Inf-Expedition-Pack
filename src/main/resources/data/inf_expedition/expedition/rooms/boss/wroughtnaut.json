@@ -1,0 +1,11 @@
+{
+  "id": "inf_expedition:boss/wroughtnaut",
+  "type": "boss",
+  "weight": 10,
+  "structure": "inf_expedition:rooms/boss/wroughtnaut",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.boss_wroughtnaut",
+  "encounter": "inf_expedition:boss/wroughtnaut",
+  "reward_loot": "inf_expedition:chests/boss"
+}

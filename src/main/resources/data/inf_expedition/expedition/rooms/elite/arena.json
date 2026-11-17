@@ -1,0 +1,11 @@
+{
+  "id": "inf_expedition:elite/arena",
+  "type": "elite",
+  "weight": 10,
+  "structure": "inf_expedition:rooms/elite/arena",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.elite_arena",
+  "encounter": "inf_expedition:elite/arena",
+  "reward_loot": "inf_expedition:chests/elite"
+}

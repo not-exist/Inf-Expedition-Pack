@@ -1,0 +1,11 @@
+{
+  "id": "inf_expedition:battle/crypt",
+  "type": "battle",
+  "weight": 10,
+  "structure": "inf_expedition:rooms/battle/crypt",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.battle_crypt",
+  "encounter": "inf_expedition:battle/crypt",
+  "reward_loot": "inf_expedition:chests/battle_common"
+}

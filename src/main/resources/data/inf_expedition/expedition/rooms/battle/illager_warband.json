@@ -1,0 +1,11 @@
+{
+  "id": "inf_expedition:battle/illager_warband",
+  "type": "battle",
+  "weight": 8,
+  "structure": "inf_expedition:rooms/battle/forge_hall",
+  "min_act": 1,
+  "max_act": 1,
+  "title": "room.inf_expedition.battle_illager_warband",
+  "encounter": "inf_expedition:battle/illager_warband",
+  "reward_loot": "inf_expedition:chests/battle_common"
+}

@@ -1,0 +1,22 @@
+{
+  "title": "encounter.inf_expedition.boss_void_blossom",
+  "boss": true,
+  "waves": [
+    {
+      "mobs": [
+        {
+          "id": "bosses_of_mass_destruction:void_blossom",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "scale": {
+    "health_per_act": 0.35,
+    "damage_per_act": 0.2,
+    "count_per_act": 0.2,
+    "health_per_extra_player": 0.5,
+    "damage_per_extra_player": 0.25
+  },
+  "reward_loot": "inf_expedition:chests/boss"
+}

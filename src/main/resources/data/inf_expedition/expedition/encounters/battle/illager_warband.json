@@ -1,0 +1,38 @@
+{
+  "title": "encounter.inf_expedition.battle_illager_warband",
+  "boss": false,
+  "waves": [
+    {
+      "mobs": [
+        {
+          "id": "illagerinvasion:provoker",
+          "count": 2
+        },
+        {
+          "id": "illagerinvasion:basher",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "mobs": [
+        {
+          "id": "illagerinvasion:marauder",
+          "count": 2
+        },
+        {
+          "id": "illagerinvasion:alchemist",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "scale": {
+    "health_per_act": 0.35,
+    "damage_per_act": 0.2,
+    "count_per_act": 0.2,
+    "health_per_extra_player": 0.5,
+    "damage_per_extra_player": 0.25
+  },
+  "reward_loot": "inf_expedition:chests/battle_common"
+}

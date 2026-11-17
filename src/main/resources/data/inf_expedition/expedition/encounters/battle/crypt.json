@@ -1,0 +1,34 @@
+{
+  "title": "encounter.inf_expedition.battle_crypt",
+  "boss": false,
+  "waves": [
+    {
+      "mobs": [
+        {
+          "id": "minecraft:zombie",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "mobs": [
+        {
+          "id": "minecraft:skeleton",
+          "count": 3
+        },
+        {
+          "id": "minecraft:zombie",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "scale": {
+    "health_per_act": 0.35,
+    "damage_per_act": 0.2,
+    "count_per_act": 0.2,
+    "health_per_extra_player": 0.5,
+    "damage_per_extra_player": 0.25
+  },
+  "reward_loot": "inf_expedition:chests/battle_common"
+}
