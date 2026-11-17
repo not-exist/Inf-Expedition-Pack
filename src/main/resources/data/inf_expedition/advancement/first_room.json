@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "unlocked": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "inf:hammer"
+    },
+    "title": {
+      "translate": "advancements.inf_expedition.first_room.title"
+    },
+    "description": {
+      "translate": "advancements.inf_expedition.first_room.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "unlocked"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "inf_expedition:first_run"
+}

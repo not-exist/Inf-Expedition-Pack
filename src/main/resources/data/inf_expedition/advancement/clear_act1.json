@@ -1,0 +1,29 @@
+{
+  "criteria": {
+    "unlocked": {
+      "trigger": "minecraft:impossible"
+    }
+  },
+  "display": {
+    "icon": {
+      "count": 1,
+      "id": "inf_expedition:recall_scroll"
+    },
+    "title": {
+      "translate": "advancements.inf_expedition.clear_act1.title"
+    },
+    "description": {
+      "translate": "advancements.inf_expedition.clear_act1.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true
+  },
+  "requirements": [
+    [
+      "unlocked"
+    ]
+  ],
+  "sends_telemetry_event": false,
+  "parent": "inf_expedition:first_boss"
+}
