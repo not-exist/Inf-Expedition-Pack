@@ -1,0 +1,50 @@
+{
+  "起始包 +1 刀胚": {
+    "title": "起始包 +1 刀胚",
+    "description": "下一局开始多一个随机刀胚。",
+    "icon": {"type": "item", "data": {"item": "inf:sword_blank"}},
+    "rewards": [{
+      "type": "puffish_skills:command",
+      "data": {
+        "unlock_command": "execute as @p run kubejs persistent_data entity @p merge {'inf_expedition_bonus_blank':true}",
+        "lock_command": "execute as @p run kubejs persistent_data entity @p merge {'inf_expedition_bonus_blank':false}"
+      }
+    }]
+  },
+  "起始包 +1 锻锤": {
+    "title": "起始包 +1 锻锤",
+    "description": "下一局开始多一把锻锤。",
+    "icon": {"type": "item", "data": {"item": "inf:hammer"}},
+    "rewards": [{
+      "type": "puffish_skills:command",
+      "data": {
+        "unlock_command": "execute as @p run kubejs persistent_data entity @p merge {'inf_expedition_bonus_hammer':true}",
+        "lock_command": "execute as @p run kubejs persistent_data entity @p merge {'inf_expedition_bonus_hammer':false}"
+      }
+    }]
+  },
+  "起始包 +1 治疗药水": {
+    "title": "起始包 +1 治疗药水",
+    "description": "下一局开始多一瓶强效治疗药水。",
+    "icon": {"type": "item", "data": {"item": "minecraft:potion"}},
+    "rewards": [{
+      "type": "puffish_skills:command",
+      "data": {
+        "unlock_command": "execute as @p run kubejs persistent_data entity @p merge {'inf_expedition_bonus_potion':true}",
+        "lock_command": "execute as @p run kubejs persistent_data entity @p merge {'inf_expedition_bonus_potion':false}"
+      }
+    }]
+  },
+  "商店 9 折": {
+    "title": "商店 9 折",
+    "description": "商店购买价格从 4 个绿宝石降为 3 个。",
+    "icon": {"type": "item", "data": {"item": "minecraft:emerald"}},
+    "rewards": [{
+      "type": "puffish_skills:command",
+      "data": {
+        "unlock_command": "execute as @p run kubejs persistent_data entity @p merge {'inf_expedition_shop_discount':true}",
+        "lock_command": "execute as @p run kubejs persistent_data entity @p merge {'inf_expedition_shop_discount':false}"
+      }
+    }]
+  }
+}

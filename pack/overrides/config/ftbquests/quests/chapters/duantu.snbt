@@ -1,0 +1,327 @@
+{
+	autofocus_id: "A2AC77FD36C68C2A"
+	default_hide_dependency_lines: false
+	default_min_width: 220
+	default_quest_shape: "circle"
+	filename: "duantu"
+	group: "0F0E0D0C0B0A0908"
+	icon: "inf:forge_table"
+	id: "F238F89B35DAA570"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"&6&l欢迎来到锻途：千锤之路。"
+				"&7· 大厅里的远征祭坛开始一局。"
+				"&7· 起始包里有锻锤、刀胚、返回卷轴和任务书。"
+				"&7· 每次落锤都提高价值，也提高碎裂风险。"
+			]
+			icon: "inf:forge_table"
+			id: "A2AC77FD36C68C2A"
+			rewards: [{
+				id: "DB5BE285678F1F9D"
+				item: {
+					Count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "565B8FB4EE302EE3"
+				item: {
+					Count: 1
+					id: "inf:hammer"
+				}
+				type: "item"
+			}]
+			title: "在启程之前"
+			x: 0.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["A2AC77FD36C68C2A"]
+			description: [
+				"&7地图是节点图，不是手搭世界。"
+				"&7· 点击发光的节点前进。"
+				"&7· 当前房间完成前不能移动。"
+			]
+			icon: "inf_expedition:recall_scroll"
+			id: "A5A7D0E28115DD9A"
+			rewards: [{
+				id: "931F33F5525BB613"
+				item: {
+					Count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "81849382035E26FB"
+				title: "打开地图"
+				type: "checkmark"
+			}]
+			title: "按 M 打开地图"
+			x: 2.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["A5A7D0E28115DD9A"]
+			description: [
+				"&7在起始房间或锻造房间找到锻刀台。"
+				"&7· 放入刀胚与锻锤，逐次锻打。"
+				"&7· 价值越高，碎裂风险越高。"
+				"&7· 停手入库，带走成品。"
+			]
+			icon: "inf:forge_table"
+			id: "B006C93F30575F95"
+			rewards: [{
+				id: "C296AB1301ADFA28"
+				item: {
+					Count: 1
+					id: "inf:sword_blank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "8080AF8D857A05C4"
+				title: "锻造第一把武器"
+				type: "checkmark"
+			}]
+			title: "第一把武器"
+			x: 4.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["B006C93F30575F95"]
+			description: [
+				"&7把一把刀锻到精良（价值 240）。"
+				"&7· 大成功会双倍加值。"
+				"&7· 损伤会损失 10% 价值，但刀还在。"
+			]
+			icon: "inf:forged_sword"
+			id: "930BEADDA0CE37D9"
+			rewards: [{
+				id: "5D343B47FDD0B802"
+				item: {
+					Count: 1
+					id: "inf:hammer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "F06245C68095682E"
+				title: "锻出精良"
+				type: "checkmark"
+			}]
+			title: "精良之作"
+			x: 6.0d
+			y: 0.0d
+		},
+		{
+			dependencies: ["A5A7D0E28115DD9A"]
+			description: [
+				"&7进入战斗房间，清空所有波次。"
+				"&7· 怪物不会互相攻击。"
+				"&7· 跑出房间的怪会被拉回。"
+			]
+			icon: "minecraft:iron_sword"
+			id: "904023D83EB65079"
+			rewards: [{
+				id: "6FE6879085600DBF"
+				item: {
+					Count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "5B584C948FB4B647"
+				title: "清空一个战斗房间"
+				type: "checkmark"
+			}]
+			title: "第一场战斗"
+			x: 2.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["904023D83EB65079"]
+			description: [
+				"&7锻造房间有锻刀台和工具箱。"
+				"&7· 在安全环境里决定继续锻还是收手。"
+			]
+			icon: "inf:forge_table"
+			id: "41DEC90C8EC32BCF"
+			rewards: [{
+				id: "DFDABA17D51862A6"
+				item: {
+					Count: 1
+					id: "inf:sword_blank"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "095FEA42B4DD37AA"
+				title: "使用锻造房间"
+				type: "checkmark"
+			}]
+			title: "锻造房间"
+			x: 4.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["904023D83EB65079"]
+			description: [
+				"&7商店房间用绿宝石换补给。"
+				"&7· 4 个绿宝石买一件随机物品。"
+			]
+			icon: "minecraft:emerald"
+			id: "92A25D95396355EF"
+			rewards: [{
+				id: "67333AD46F48A5A0"
+				item: {
+					Count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "A49B9696751E5402"
+				title: "在商店消费"
+				type: "checkmark"
+			}]
+			title: "商店"
+			x: 6.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["904023D83EB65079"]
+			description: [
+				"&7休息房间的营火恢复 50% 生命。"
+				"&7· 每个房间每名玩家一次。"
+			]
+			icon: "minecraft:campfire"
+			id: "C80B16D31F61397E"
+			rewards: [{
+				id: "E5E8F6BE7753D041"
+				item: {
+					Count: 1
+					id: "minecraft:cooked_beef"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "2F1913543470DDB2"
+				title: "在休息点回血"
+				type: "checkmark"
+			}]
+			title: "休息"
+			x: 8.0d
+			y: 2.0d
+		},
+		{
+			dependencies: ["904023D83EB65079"]
+			description: [
+				"&7精英房间的敌人更强，奖励更好。"
+				"&7· 建议先有一把精良武器。"
+			]
+			icon: "minecraft:iron_block"
+			id: "D107033F3A535406"
+			rewards: [{
+				id: "017B200F94489BBD"
+				item: {
+					Count: 1
+					id: "inf:hammer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "F089A5D301B22B44"
+				title: "击败精英"
+				type: "checkmark"
+			}]
+			title: "精英"
+			x: 4.0d
+			y: 4.0d
+		},
+		{
+			dependencies: ["D107033F3A535406"]
+			description: [
+				"&7Act 1 的首领守着出口。"
+				"&7· 精良或稀有武器可以让战斗稳定很多。"
+				"&7· 击败首领即可完成本幕。"
+			]
+			icon: "minecraft:netherite_sword"
+			id: "65419878368A6AE5"
+			rewards: [{
+				id: "B67689B67C60865C"
+				item: {
+					Count: 1
+					id: "minecraft:diamond"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "314A340A28638282"
+				title: "击败 Act 1 首领"
+				type: "checkmark"
+			}]
+			title: "首领"
+			x: 6.0d
+			y: 4.0d
+		},
+		{
+			dependencies: ["65419878368A6AE5"]
+			description: [
+				"&7击败首领后回到大厅。"
+				"&7· 本局背包会被清空。"
+				"&7· clears 元进度会保留。"
+			]
+			icon: "inf_expedition:recall_scroll"
+			id: "236C9B37B99138C2"
+			rewards: [{
+				id: "BA1C22F23FD7CB1B"
+				item: {
+					Count: 1
+					id: "minecraft:emerald"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "8C4D3DF5889F834C"
+				title: "完成一次远征"
+				type: "checkmark"
+			}]
+			title: "第一幕终"
+			x: 8.0d
+			y: 4.0d
+		},
+		{
+			dependencies: ["236C9B37B99138C2"]
+			description: [
+				"&7累计完成 3 次 Act 1 远征。"
+				"&7· 每次通关都会让起始包更厚。"
+				"&7· 失败不扣 clears。"
+			]
+			icon: "inf:hammer"
+			id: "C6048F5F3C82433A"
+			rewards: [{
+				id: "1D7E7A5B648D4236"
+				item: {
+					Count: 1
+					id: "inf:hammer"
+				}
+				type: "item"
+			}]
+			tasks: [{
+				id: "9771A7BD2A7C7180"
+				title: "累计通关 3 次"
+				type: "checkmark"
+			}]
+			title: "千锤百炼"
+			x: 10.0d
+			y: 4.0d
+		}
+	]
+	title: "&6&l锻途指南"
+}

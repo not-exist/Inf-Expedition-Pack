@@ -1,0 +1,9 @@
+{
+  "normal": {
+    "bidirectional": [
+      ["difficulty_1", "difficulty_2"],
+      ["difficulty_2", "difficulty_3"],
+      ["difficulty_3", "difficulty_4"]
+    ]
+  }
+}

@@ -1,0 +1,6 @@
+{
+  "difficulty_1": {"definition": "起始包 +1 刀胚", "x": -96, "y": 0, "root": true},
+  "difficulty_2": {"definition": "起始包 +1 锻锤", "x": -32, "y": 0, "root": false},
+  "difficulty_3": {"definition": "起始包 +1 治疗药水", "x": 32, "y": 0, "root": false},
+  "difficulty_4": {"definition": "商店 9 折", "x": 96, "y": 0, "root": false}
+}

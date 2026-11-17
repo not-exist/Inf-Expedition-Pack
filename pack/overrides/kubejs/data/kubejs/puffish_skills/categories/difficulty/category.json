@@ -1,0 +1,12 @@
+{
+  "unlocked_by_default": true,
+  "title": "锻途难度",
+  "description": "每次通关 Act 获得 1 点，永久强化下一局。",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "inf:forge_table"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/stone.png"
+}

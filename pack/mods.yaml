@@ -1,0 +1,768 @@
+pack:
+  name: 锻途：千锤之路
+  version: 0.1.0
+  minecraft: 1.21.1
+  loader: neoforge-21.1.266
+  author: Inf
+mods:
+- name: Boss Checklist
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: boss-checklist
+  version: 5.3.2
+  side: client
+  role: client
+  required: true
+  depends: []
+- name: Clumps
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: client
+  required: true
+  depends: []
+  modrinth: clumps
+- name: Controlling
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends: []
+  modrinth: controlling
+- name: Drippy Loading Screen
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends: []
+  modrinth: drippy-loading-screen
+- name: 'Easy NPC: Config UI'
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: easy-npc-config-ui
+  version: 7.19.0
+  side: both
+  role: client
+  required: true
+  depends:
+  - 'Easy NPC: Core'
+- name: Embeddium
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends: []
+  modrinth: embeddium
+- name: Enhanced Boss Bars
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: enhanced-boss-bars-mod
+  version: 1.1.3
+  side: client
+  role: client
+  required: true
+  depends: []
+- name: FancyMenu
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends: []
+  modrinth: fancymenu
+- name: FerriteCore
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: client
+  required: true
+  depends: []
+  modrinth: ferrite-core
+- name: Inventory HUD+
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends: []
+  modrinth: inventoryhudplus
+- name: Inventory Profiles Next
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends:
+  - Kotlin for Forge
+  - libIPN
+  modrinth: inventory-profiles-next
+- name: Konkrete
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends: []
+  modrinth: konkrete
+- name: Melody
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends: []
+  modrinth: melody
+- name: ModernFix
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: client
+  required: true
+  depends: []
+  modrinth: modernfix
+- name: Mouse Tweaks
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends: []
+  modrinth: mouse-tweaks
+- name: Searchables
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends: []
+  modrinth: searchables
+- name: Tips
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends:
+  - Bookshelf
+  - Prickle
+  modrinth: tips
+- name: Xaero's Minimap
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: client
+  role: client
+  required: true
+  depends: []
+  modrinth: xaeros-minimap
+- name: Apothic Attributes
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: content
+  required: true
+  depends: []
+  modrinth: apothic-attributes
+- name: Aquamirae
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: content
+  required: true
+  depends:
+  - Fragmentum
+  modrinth: aquamirae
+- name: Artifacts
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: artifacts
+  version: 13.2.5
+  side: both
+  role: content
+  required: true
+  depends:
+  - Curios API
+- name: Bosses of Mass Destruction
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: bosses-of-mass-destruction-forge
+  version: 1.3.3
+  side: both
+  role: content
+  required: true
+  depends:
+  - GeckoLib
+  - Cerbons API
+- name: Bosses'Rise
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: content
+  required: true
+  depends: []
+  modrinth: bossesrise
+- name: Crimson Steve's Mutant Mobs
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: crimson-steves-mutant-mobs
+  version: 1.6.0
+  side: both
+  role: content
+  required: true
+  depends:
+  - GeckoLib
+- name: Dimensional Dungeons
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: dimensional-dungeons
+  version: '203'
+  side: both
+  role: content
+  required: true
+  depends: []
+- name: Dusty Decorations
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: dusty-decorations
+  version: 2.3.2
+  side: both
+  role: content
+  required: true
+  depends: []
+- name: Easy NPC
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: easy-npc
+  version: 7.19.0
+  side: both
+  role: content
+  required: true
+  depends:
+  - 'Easy NPC: Core'
+  - 'Easy NPC: Config UI'
+- name: EasyNPC x FTB Quests Compat
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: easynpc-x-ftb-quests-compat
+  version: 1.21.1+1.0.2
+  side: both
+  role: content
+  required: false
+  depends:
+  - Easy NPC
+  - FTB Quests
+- name: Farmer's Delight
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: content
+  required: true
+  depends: []
+  modrinth: farmers-delight
+- name: Fetzi's Asian Decoration
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: fetzis-asian-decoration
+  version: 1.8.2.1
+  side: both
+  role: content
+  required: true
+  depends: []
+- name: Illager Invasion
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: illager-invasion
+  version: 21.1.6
+  side: both
+  role: content
+  required: true
+  depends:
+  - Puzzles Lib
+- name: L2 Artifacts
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: l2artifacts
+  version: 3.0.7
+  side: both
+  role: content
+  required: true
+  depends:
+  - L2 Library
+- name: L_Ender's Cataclysm
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: content
+  required: true
+  depends: []
+  modrinth: l_enders-cataclysm
+- name: Legendary Monsters
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: content
+  required: true
+  depends: []
+  modrinth: legendary-monsters
+- name: Lootr
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: content
+  required: true
+  depends: []
+  modrinth: lootr
+- name: Mobs of Mythology
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: mobs-of-mythology
+  version: 3.1.0
+  side: both
+  role: content
+  required: true
+  depends:
+  - GeckoLib
+  - SmartBrainLib
+  - AzureLib
+- name: Mowzie's Mobs
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: content
+  required: true
+  depends: []
+  modrinth: mowzies-mobs
+- name: Sophisticated Backpacks
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: content
+  required: true
+  depends: []
+  modrinth: sophisticated-backpacks
+- name: Waystones
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: content
+  required: true
+  depends: []
+  modrinth: waystones
+- name: When Dungeons Arise
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: when-dungeons-arise
+  version: 2.1.68
+  side: both
+  role: content
+  required: true
+  depends: []
+- name: XK's Decoration
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: xks-decoration
+  version: 1.1.10
+  side: both
+  role: content
+  required: true
+  depends:
+  - Kiwi
+  - Forgified Fabric API
+- name: YUNG's Better Dungeons
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: yungs-better-dungeons
+  version: 1.21.1-NeoForge-5.1.4
+  side: both
+  role: content
+  required: true
+  depends:
+  - YUNG's API
+- name: FTB Quests
+  source: curseforge
+  project_id: 289412
+  file_id: 9405148
+  side: both
+  role: core
+  required: true
+  depends:
+  - FTB Library
+  - FTB Teams
+  filename: ftb-quests-neoforge-2101.1.38.jar
+  version: 2101.1.38
+- name: Jade
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: core
+  required: true
+  depends: []
+  modrinth: jade
+- name: Just Enough Items
+  source: curseforge
+  project_id: 238222
+  file_id: null
+  side: both
+  role: core
+  required: true
+  depends: []
+  modrinth: jei
+- name: KubeJS
+  source: curseforge
+  project_id: 238086
+  file_id: null
+  side: both
+  role: core
+  required: true
+  depends:
+  - Rhino
+  modrinth: kubejs
+- name: Architectury API
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: library
+  required: true
+  depends: []
+  modrinth: architectury-api
+- name: AzureLib
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: azurelib
+  version: 3.2.8
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: Balm
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: library
+  required: true
+  depends: []
+  modrinth: balm
+- name: Bookshelf
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: bookshelf-lib
+  version: 21.1.81
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: Cerbons API
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: cerbons-api
+  version: 1.3.0
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: Cloth Config API
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: library
+  required: true
+  depends: []
+  modrinth: cloth-config
+- name: Curios API
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: library
+  required: true
+  depends: []
+  modrinth: curios
+- name: 'Easy NPC: Core'
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: easy-npc-core
+  version: 7.19.0
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: FTB Library
+  source: curseforge
+  project_id: 404465
+  file_id: 9350706
+  side: both
+  role: library
+  required: true
+  depends: []
+  filename: ftb-library-neoforge-2101.1.39.jar
+  version: 2101.1.39
+- name: FTB Teams
+  source: curseforge
+  project_id: 404468
+  file_id: 9434081
+  side: both
+  role: library
+  required: true
+  depends:
+  - FTB Library
+  filename: ftb-teams-neoforge-2101.1.12.jar
+  version: 2101.1.12
+- name: Forgified Fabric API
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: forgified-fabric-api
+  version: 0.116.15+2.3.6+1.21.1
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: Fragmentum
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: fragmentum
+  version: 5.4.0
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: GeckoLib
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: library
+  required: true
+  depends: []
+  modrinth: geckolib
+- name: Kiwi
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: kiwi
+  version: 15.8.7+neoforge
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: Kotlin for Forge
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: kotlin-for-forge
+  version: 5.13.0
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: L2 Library
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: l2library
+  version: 3.0.10
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: Lionfish API
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: library
+  required: true
+  depends: []
+  modrinth: lionfish-api
+- name: LootJS
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: lootjs
+  version: 1.21.1-3.7.0
+  side: both
+  role: library
+  required: true
+  depends:
+  - KubeJS
+- name: MoreJS
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: morejs
+  version: 1.21.1-0.16.0
+  side: both
+  role: library
+  required: true
+  depends:
+  - KubeJS
+- name: Placebo
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: library
+  required: true
+  depends: []
+  modrinth: placebo
+- name: Prickle
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: prickle
+  version: 21.1.11
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: Puffish Attributes
+  source: curseforge
+  project_id: 991341
+  file_id: 8610466
+  filename: puffish_attributes-0.8.3-1.21-neoforge.jar
+  version: 0.8.3
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: Puzzles Lib
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: puzzles-lib
+  version: 21.1.66
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: Rhino
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: rhino
+  version: 2101.2.8-build.91
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: SmartBrainLib
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: smartbrainlib
+  version: 1.16.11
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: Sophisticated Core
+  source: curseforge
+  project_id: null
+  file_id: null
+  side: both
+  role: library
+  required: true
+  depends: []
+  modrinth: sophisticated-core
+- name: YUNG's API
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: yungs-api
+  version: 1.21.1-NeoForge-5.1.9
+  side: both
+  role: library
+  required: true
+  depends: []
+- name: libIPN
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: libipn
+  version: neoforge-1.21.1-6.6.3
+  side: client
+  role: library
+  required: true
+  depends:
+  - Kotlin for Forge
+- name: Keystone Expansion
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: keystone-expansion-pufferfishs-skills
+  version: 1.1.0
+  side: both
+  role: meta
+  required: true
+  depends:
+  - Pufferfish's Skills
+  - Puffish Attributes
+- name: Pufferfish's Skills
+  source: curseforge
+  project_id: null
+  file_id: null
+  modrinth: skills
+  version: 0.19.2
+  side: both
+  role: meta
+  required: true
+  depends: []
+local_mods:
+- name: Inf
+  path: inf-core/build/libs/inf-0.2.0.jar
+- name: Inf Expedition
+  path: build/libs/inf_expedition-0.1.0.jar
+overrides: overrides
